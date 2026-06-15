@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanikiwa CBO</title>
+
+    <!-- 1. Bootstrap CSS CDN Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 2. FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- 3. Your Custom Stylesheet (Must stay at the bottom) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container nav-container">
+            <div class="logo"><span class="logo-accent">Fanikiwa</span> CBO</div>
+            <button class="mobile-nav-toggle" aria-label="toggle navigation"><span class="hamburger"></span></button>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="nav-link-item">Home</a></li>
+                    <li><a href="about.html" class="nav-link-item">About Us</a></li>
+                    <li><a href="pillars.html" class="nav-link-item">Our Pillars</a></li>
+                    <li><a href="#contact" class="btn btn-small">Get Involved</a></li>
+                    <li><a href="stories.html" class="nav-link-item">Success Stories</a></li>
+                    <li><a href="reports.html" class="nav-link-item">Annual Reports</a></li>
+                    <li><a href="support.html" class="btn btn-small">Support Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Inspiring Growth, Shifting Mindsets, <br><span class="highlight">Transforming Lives</span></h1>
+            <p>Fanikiwa CBO is dedicated to driving sustainable community development through grassroots action,
+                resource mobilization and strategic partnerships.</p>
+            <div class="hero-cta">
+                <a href="pillars.html" class="btn btn-primary">Our Programs</a>
+                <a href="about.html" class="btn btn-secondary">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Watermark Section -->
+    <section class="about-brief">
+        <div class="watermark-bg" style="background-image: url('logo.jpeg');"></div>
+        <div class="container text-center content-relative">
+            <h2>Who We Are</h2>
+            <div class="accent-line"></div>
+            <p class="lead-text">"Fanikiwa" is a Swahili word meaning *to succeed* or *to prosper*. We are a registered
+                Community-Based Organization working on the ground to unlock the potential of local communities,
+                creating sustainable pathways toward self-reliance and healthy living.</p>
+            <a href="about.html" class="btn-text" style="display:inline-block; margin-top:20px;">Learn more
+                &rarr;</a>
+        </div>
+    </section>
+    <!-- New Field Projects Showcase Section -->
+    <section id="projects" class="py-5 bg-transparent">
+        <div class="container">
+            <h2 class="text-center mb-2">Active Field Projects</h2>
+            <p class="text-center text-muted mb-5 mx-auto" style="max-width: 650px;">A structural look at the direct,
+                tangible solutions our teams are implementing across target local ecosystems.</p>
+
+            <!-- Bootstrap Responsive Row Grid -->
+            <div class="row g-4">
+                <!-- Project Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=500&q=80"
+                            class="card-img-top" alt="Tree planting" style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span
+                                class="badge bg-success-subtle text-success text-uppercase mb-2"><b>Environment</b></span>
+                            <h4 class="card-title h5 text-dark fw-bold">Tree Planting & Reaforestation</h4>
+                            <p class="card-text text-muted small text-justify">Restoring degraded communal lands and
+                                micro-catchment zones by deploying indigenous seedlings alongside youth climate-advocacy
+                                groups to scale canopy metrics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <h4 class="card-title h5 text-dark fw-bold">Community Kitchen Gardens</h4>
+
+                        <img src="Images/kitchen garden.jpg" class="card-img-top" alt="Kitchen garden"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span
+                                class="badge bg-success-subtle text-success text-uppercase mb-2"><b>Nutrition</b></span>
+                            <p class="card-text text-muted small text-justify">Establishing localized vertical spaces
+                                and
+                                organic bag gardens behind residential zones to secure dietary diversity and household
+                                food
+                                safety lines.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <h4 class="card-title h5 text-dark fw-bold">Water Harvesting & Conservation</h4>
+                        <img src="Images/water harvesting.jpg" class="card-img-top" alt="Water harvesting"
+                            style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-success-subtle text-success text-uppercase mb-2"><b>WASH
+                                    Interventions</b>
+                            </span>
+                            <p class="card-text text-muted small text-justify">Installing institutional roof-catchment
+                                systems and ferrocement storage tanks within local facilities to maximize seasonal
+                                storage
+                                and eliminate dry-spell water vulnerability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Connect With Us</h2>
+                    <p>Whether you want to volunteer your time, donate resources or partner on an upcoming project,
+                        your involvement makes a tangible difference.</p>
+                    <div class="info-details">
+                        <div class="info-item"><i class="fa-solid fa-envelope"></i>
+                            <p>info@fanikiwacbo.org</p>
+                        </div>
+                        <div class="info-item"><i class="fa-solid fa-phone"></i>
+                            <p>+254 717782272</p>
+                        </div>
+                        <div class="info-item"><i class="fa-solid fa-location-dot"></i>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="interactive-contact-form" class="contact-form">
+                        <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" required
+                                placeholder="John Doe"></div>
+                        <div class="form-group"><label for="email">Email Address</label><input type="email" id="email"
+                                required placeholder="john@example.com"></div>
+                        <div class="form-group"><label for="message">Message</label><textarea id="message" rows="4"
+                                required placeholder="How would you like to support or partner..."></textarea></div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Fanikiwa CBO. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
