@@ -64,6 +64,7 @@ body {
     background-color: transparent !important;
     /* Warm alabaster/cream */
     color: #1a202c;
+    padding-top: 80px;
 }
 
 * {
@@ -162,12 +163,17 @@ html {
 
 /* --- Sticky Navigation Layout --- */
 header {
+    /* --- Sticky / Floating Navigation Layout --- */
     background-color: var(--white);
-    position: sticky;
+    position: fixed;
+    /* Floats header at the top of viewport */
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
     padding: 20px 0;
     transition: var(--transition);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* JavaScript class added on downscroll */
